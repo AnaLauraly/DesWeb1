@@ -1,0 +1,30 @@
+body { 
+background-color: rgb(255, 255, 255) ;    
+}
+
+h1 {color:rgb(155, 0, 72);
+font-size: 60px;}   
+
+p { color: rgb(90, 0, 83);
+font-size: 18px;}
+
+p1 {
+    color: rgb(107, 0, 98);
+    font-size: 18px;
+}
+h2 {
+    color: rgb(92, 0, 43);
+border-radius: 50px;
+}
+
+    #xuxu {
+        background-color: rgb(167, 167, 167);
+    }
+
+    .estiloso {
+        border-style: solid;
+    }
+
+    h2, p.centraliza {
+        text-align: center;
+    }
