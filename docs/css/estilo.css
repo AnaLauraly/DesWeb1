@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 227, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.central{
+    text-align: center;
+}
+.item-menu{
+    display: inline;
+    margin: 0.6rem;
+    background-color: rgb(232, 192, 245);
+    padding: 0.4rem;
+    padding-right: 1rem;
+    border-style: double;
+    border-width: 0.4rem;
+    border-color: rgb(77, 24, 128);
+}
+
+.item-menu:hover{
+background-color: rgb(247, 85, 161);
+
+}
+
+.item-menu a:hover{
+    background-color: rgb(252, 122, 187);
+}
+
+.menu{
+    background-color: antiquewhite;
+    padding: 0.7rem;
+}
+td{
+    padding: 0.6rem;
+}
+
