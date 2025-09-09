@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms HTML</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <div>
+        <form action="#" method="post">
+        <label for="nome">Nome (obrigatorio)</label>
+        <input type="text" name="nome" id="nome" placeholder="digite seu nome" required>
+        
+
+       
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="gmail.com" required>
+
+        <label for="periodo">Periodo</label>
+        <input type="number" name="periodo" id="periodo" max="4" min="1" placeholder="">
+
+        <label for="senha">senha</label>
+        <input type="password" id="senha" name="senha" maxlength="8">
+
+        <label for="nasc">data de nascimento</label>
+        <input type="datetime" name="nasc" id="nasc">
+
+        <label for="feliz">nivel de satisfação</label>
+        <input type="range" name="feliz" id="feliz">
+<p>
+    voce gosta de estudar?
+</p>
+        <label for="estuda">Sim</label>
+        <input type="radio" name="estuda">
+        <label for="nao estuda">Não</label>
+        <input type="radio" name="estuda">
+
+        <p>quais matérias voce mais gosta?</p>
+<label for="alg">algoritimos</label>
+<input type="checkbox" name="alg">
+<label for="dsw">desenvolvimento web</label>
+<input type="checkbox" name="dsw">
+<label for="bd">banco de dados</label>
+<input type="checkbox" name="bd">
+
+
+        <input type="submit" value="salvar">
+</form>
+    </div>
+</body>
+</html>
